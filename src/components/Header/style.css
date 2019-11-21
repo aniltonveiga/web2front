@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    align-items: center;
+}
+header form{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: center;
+}
+header form input{
+    margin-left: 2px;
+    border: 1px solid #ccc; 
+    margin-bottom: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header form input[type='submit']{
+    background-color: black;
+    color: white;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.logo{
+    align-self: flex-start;
+}
+
+.logoTr{
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}

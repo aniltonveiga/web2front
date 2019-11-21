@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+.form input{
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form input[type = 'submit']{
+    background-color: black;
+    color: white;
+}
