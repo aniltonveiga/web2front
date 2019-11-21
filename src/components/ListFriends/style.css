@@ -9,7 +9,7 @@ li a {
     margin: 0 5px;
     padding: 10px;
     display: flex;
-    flex: 1;
+    width: 25%;
     flex-direction: column;
 }
 

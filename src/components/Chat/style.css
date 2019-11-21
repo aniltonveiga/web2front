@@ -7,7 +7,9 @@
 }
 
 .chat{
-    background-color: blueviolet;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: #c5c5c5;
     color: #000;
     max-height: 500px;
     overflow-y: scroll;
@@ -42,4 +44,11 @@
     padding: 5px;
     border-radius: 5px;
     background-color: #f8f1c6;
+}
+
+#btnEnviar{
+    background-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
 }

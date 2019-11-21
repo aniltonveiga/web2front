@@ -134,7 +134,7 @@ export default class Chat extends Component{
             }</div>
                 <form onSubmit={this.handleSubmit}>
                    <input type="text"  value={this.state.message} onChange={this.handleChange} />
-                   <button id="btnEnviar">Enviar mensagem</button>
+                   <button id="btnEnviar">ENVIAR</button>
                </form>
                <div style={{ float:"left", clear: "both" }} ref={(el) => { this.messagesEnd = el; }}></div>
            </div>
